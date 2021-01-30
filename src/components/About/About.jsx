@@ -37,16 +37,26 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
+                <p className="about-wrapper__info-text">Привет! Я frontend разработчик.</p>
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  На данный момент учусь, набиваю руку, делаю свои проекты. <br></br> В планах клон
+                  твиттера на MERN + TypeScript.<br></br> На данный момент делаю на React social
+                  network by IT-KAMASUTRA и чат.
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                  Хочу начать работать в команде, делать интересные проекты, учиться чему-то новому.
                 </p>
+                <br></br>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  Мой опыт: <br></br>--Вёрстка: верстал несколько не особо сложных макетов, работал
+                  с bootstrap. Изучаю адаптив.<br></br> <br></br> --JS: реализовывал отправку формы
+                  на сайте, логику калькулятора, слайдер, слайдер-карусель, модальные окна, ререндер
+                  контента при нажатии на кнопки, работа со скроллом(определял местонахождение
+                  пользователя), работа с датами, ООП.<br></br> <br></br>--React: Интернет-магазин
+                  на JS с использованием Redux. Работал с react-skeleton, redux-thunk, хуками,
+                  react-router-dom, axios, json-server.<br></br> Мини-твиттер (что-то вроде
+                  todo-list) в ООП стиле.<br></br> Минималистичный чат с использованием socket.io и
+                  Express.<br></br> Клон Google-поиск с использованием firebase.
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
