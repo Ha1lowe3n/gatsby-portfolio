@@ -3,16 +3,16 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'TI v IT | Developer', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: 'Igor Trifonov',
   subtitle: "I'm the JavaScript Developer",
-  cta: '',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
@@ -37,21 +37,39 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'pizza.jpg',
+    title: 'Pizza',
+    info: 'Интернет-магазин с использованием Redux. Работал с react-skeleton, redux-thunk, хуками, react-router-dom, axios, json-server.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://trigan-pizza.herokuapp.com/',
+    repo: 'https://github.com/Ha1lowe3n/react_pizza', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'mini-twitter.jpg',
+    title: 'Мини-твиттер',
+    info: 'что-то вроде todo-list в ООП стиле.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://todo-twitter.herokuapp.com/',
+    repo: 'https://github.com/Ha1lowe3n/react-mini-twitter', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'simple-chat.jpg',
+    title: 'Simple chat',
+    info: 'Минималистичный чат с использованием socket.io и Express.',
+    info2: '',
+    url: 'https://chat-s1mple.herokuapp.com/',
+    repo: 'https://github.com/Ha1lowe3n/react-chat-simple', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'telo.jpg',
+    title: 'Фитнес',
+    info: 'Фитнес-сайт',
+    info2: '',
+    url: 'https://telo.netlify.app/',
+    repo: 'https://github.com/Ha1lowe3n/js-middle', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'https://t.me/Ha1lowe3n',
 };
 
 // FOOTER DATA
@@ -67,28 +85,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ha1lowe3n/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Ha1lowe3n',
+    },
+    {
+      id: nanoid(),
+      name: 'vk',
+      url: 'https://vk.com/ha1lowe3n',
+    },
+    {
+      id: nanoid(),
+      name: 'telegram',
+      url: 'https://t.me/Ha1lowe3n',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

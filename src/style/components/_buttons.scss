@@ -31,6 +31,7 @@
   border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   border-image-slice: 1;
   cursor: pointer;
+
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
@@ -40,6 +41,7 @@
 
   &::after {
     background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -49,6 +51,7 @@
   &:hover {
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
+
     // Responsive Button hover hero style
     @include respond(phone) {
       -webkit-text-fill-color: $secondary-color;
@@ -58,6 +61,10 @@
       width: 100%;
     }
   }
+}
+
+.btn-fix {
+  border-width: 0px;
 }
 
 /* Resume Style */
